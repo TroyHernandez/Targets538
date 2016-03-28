@@ -1,59 +1,59 @@
-DATE,STATE OR TERRITORY,TOTAL DELEGATES,CLINTON Won,CLINTON Target,SANDERS Won,SANDERS Target
-02/01/16,Iowa,44,23,18,21,26
-02/09/16,New Hampshire,24,9,9,15,15
-02/20/16,Nevada,35,20,17,15,18
-02/27/16,South Carolina,53,39,32,14,21
-03/01/16,Alabama,53,44,35,9,18
-,American Samoa,6,4,3,2,3
-,Arkansas,32,22,18,10,14
-,Colorado,66,28,30,38,36
-,Georgia,102,73,65,29,37
-,Massachusetts,91,46,41,45,50
-,Minnesota,77,31,30,46,47
-,Oklahoma,38,17,18,21,20
-,Tennessee,67,44,33,23,34
-,Texas,222,148,126,74,96
-,Vermont,16,0,2,16,14
-,Virginia,95,62,52,33,43
-03/05/16,Kansas,33,9,14,24,19
-,Louisiana,51,37,33,14,18
-,Nebraska,25,10,10,15,15
-03/06/16,Maine,25,9,10,16,15
-03/08/16,Michigan,130,63,63,67,67
-,Mississippi,36,32,23,4,13
-03/12/16,Northern Marianas,6,4,3,2,3
-03/15/16,Florida,214,141,116,73,98
-,Illinois,156,78,85,78,71
-,Missouri,71,36,36,35,35
-,North Carolina,107,60,57,47,50
-,Ohio,143,81,71,62,72
-03/21/16,Democrats Abroad,13,4,6.5,9,6.5
-03/22/16,Arizona,75,44,34,31,41
-,Idaho,23,5,9,18,14
-,Utah,33,6,14,27,19
-03/26/16,Alaska,16,3,7,13,9
-,Hawaii,25,8,12,17,13
-,Washington,101,27,42,74,59
-04/05/16,Wisconsin,86,,38,,48
-04/09/16,Wyoming,14,,5,,9
-04/19/16,New York,247,,122,,125
-04/26/16,Connecticut,55,,27,,28
-,Delaware,21,,11,,10
-,Maryland,95,,53,,42
-,Pennsylvania,189,,93,,96
-,Rhode Island,24,,11,,13
-05/03/16,Indiana,83,,39,,44
-05/07/16,Guam,7,,3.5,,3.5
-05/10/16,West Virginia,29,,12,,17
-05/17/16,Kentucky,55,,27,,28
-,Oregon,61,,24,,37
-06/04/16,Virgin Islands,7,,3.5,,3.5
-06/05/16,Puerto Rico,60,,30,,30
-06/07/16,California,475,,236,,239
-,Montana,21,,8,,13
-,New Jersey,126,,65,,61
-,New Mexico,34,,16,,18
-,South Dakota,20,,8,,12
-,North Dakota,18,,7,,11
-06/14/16,District of Columbia,20,,12,,8
-,TOTAL,4051,1267,2025.5,1037,2025.5
+DATE,STATE OR TERRITORY,COLOR,TOTAL DELEGATES,CLINTON Won,CLINTON Target,SANDERS Won,SANDERS Target
+02/01/16,Iowa,P,44,23,18,21,26
+02/09/16,New Hampshire,R,24,9,9,15,15
+02/20/16,Nevada,P,35,20,17,15,18
+02/27/16,South Carolina,R,53,39,32,14,21
+03/01/16,Alabama,R,53,44,35,9,18
+,American Samoa,P,6,4,3,2,3
+,Arkansas,R,32,22,18,10,14
+,Colorado,P,66,28,30,38,36
+,Georgia,P,102,73,65,29,37
+,Massachusetts,B,91,46,41,45,50
+,Minnesota,P,77,31,30,46,47
+,Oklahoma,R,38,17,18,21,20
+,Tennessee,R,67,44,33,23,34
+,Texas,R,222,148,126,74,96
+,Vermont,B,16,0,2,16,14
+,Virginia,P,95,62,52,33,43
+03/05/16,Kansas,R,33,9,14,24,19
+,Louisiana,P,51,37,33,14,18
+,Nebraska,R,25,10,10,15,15
+03/06/16,Maine,P,25,9,10,16,15
+03/08/16,Michigan,P,130,63,63,67,67
+,Mississippi,R,36,32,23,4,13
+03/12/16,Northern Marianas,P,6,4,3,2,3
+03/15/16,Florida,P,214,141,116,73,98
+,Illinois,B,156,78,85,78,71
+,Missouri,R,71,36,36,35,35
+,North Carolina,P,107,60,57,47,50
+,Ohio,P,143,81,71,62,72
+03/21/16,Democrats Abroad,P,13,4,6.5,9,6.5
+03/22/16,Arizona,P,75,44,34,31,41
+,Idaho,R,23,5,9,18,14
+,Utah,R,33,6,14,27,19
+03/26/16,Alaska,R,16,3,7,13,9
+,Hawaii,B,25,8,12,17,13
+,Washington,B,101,27,42,74,59
+04/05/16,Wisconsin,P,86,,38,,48
+04/09/16,Wyoming,R,14,,5,,9
+04/19/16,New York,B,247,,122,,125
+04/26/16,Connecticut,B,55,,27,,28
+,Delaware,B,21,,11,,10
+,Maryland,B,95,,53,,42
+,Pennsylvania,P,189,,93,,96
+,Rhode Island,B,24,,11,,13
+05/03/16,Indiana,R,83,,39,,44
+05/07/16,Guam,P,7,,3.5,,3.5
+05/10/16,West Virginia,R,29,,12,,17
+05/17/16,Kentucky,P,55,,27,,28
+,Oregon,B,61,,24,,37
+06/04/16,Virgin Islands,P,7,,3.5,,3.5
+06/05/16,Puerto Rico,P,60,,30,,30
+06/07/16,California,B,475,,236,,239
+,Montana,R,21,,8,,13
+,New Jersey,B,126,,65,,61
+,New Mexico,B,34,,16,,18
+,South Dakota,R,20,,8,,12
+,North Dakota,R,18,,7,,11
+06/14/16,District of Columbia,B,20,,12,,8
+,TOTAL,,4051,1267,2025.5,1037,2025.5
