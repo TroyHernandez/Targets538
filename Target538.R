@@ -11,6 +11,9 @@ color.str <- replace(color.str, which(color.str == "B"), "blue")
 dat$COLOR <- color.str
 
 past.dat <- dat[-future.ind, ]
+
+#####################################################
+
 Sanders <- past.dat$SANDERS.Won - past.dat$SANDERS.Target
 names(Sanders) <- past.dat$STATE.OR.TERRITORY
 sort(Sanders)
@@ -27,3 +30,27 @@ text(x = past.dat$SANDERS.Target[big.sanders] - c(10, rep(6, 5)),
      labels = past.dat$STATE.OR.TERRITORY[big.sanders], cex = .5)
 abline(0, 1)
 
+#####################################################
+Clinton <- past.dat$CLINTON.Won - past.dat$CLINTON.Target
+names(Clinton) <- past.dat$STATE.OR.TERRITORY
+sort(Clinton)
+
+plot(x = past.dat$CLINTON.Target, y = past.dat$CLINTON.Won,
+     xlab = "Target", ylab = "Won",
+     main = "538's Clinton's Delegates\nTarget vs. Won",
+     col = past.dat$COLOR, pch = 20)
+
+big.clinton <- which(past.dat$CLINTON.Target > 50)
+
+text(x = past.dat$CLINTON.Target[big.clinton] - rep(6, length(big.clinton)),
+     y = past.dat$CLINTON.Won[big.clinton],
+     labels = past.dat$STATE.OR.TERRITORY[big.clinton], cex = .5)
+abline(0, 1)
+
+#####################################################
+
+future.dat <- dat[future.ind, ]
+sum(future.dat$CLINTON.Target)
+sum(past.dat$CLINTON.Target)
+sum(future.dat$SANDERS.Target)
+sum(past.dat$SANDERS.Target)
