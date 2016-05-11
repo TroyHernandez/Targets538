@@ -75,7 +75,7 @@ mod.clinton.red <- lm(past.dat$CLINTON.Won[color.str2 == "red.purp"] ~ 0 +
                         past.dat$CLINTON.Target[color.str2 == "red.purp"])
 # mod$coefficients
 # Red line is shows Hillary's average over-performance in red/purple states 
-abline(0, mod$coefficients[1], col = "red")
+abline(0, mod.clinton.red$coefficients[1], col = "red")
 
 #####################################################
 # Percent of delegates pledged:
@@ -105,13 +105,21 @@ sum(future.dat$SANDERS.Target[future.dat$COLOR == "blue"] *
     mod.sanders.blue$coefficients) + # 1.25) +#
   sum(future.dat$SANDERS.Target[future.dat$COLOR == "red" |
                                   future.dat$COLOR == "purple"] *
-        mod.sanders.red$coefficients) + 1037
+        mod.sanders.red$coefficients) + sum(dat$SANDERS.Won, na.rm = T)
 # [1] 1945.444
+# [1] 1959.953
+# [1] 1861.727
 
 # Hillary eeks it out
 sum(future.dat$CLINTON.Target[future.dat$COLOR == "blue"] *
       mod.clinton.blue$coefficients) +
   sum(future.dat$CLINTON.Target[future.dat$COLOR == "red" |
                                   future.dat$COLOR == "purple"] *
-        mod.clinton.red$coefficients) + 1267
+        mod.clinton.red$coefficients) + sum(dat$CLINTON.Won, na.rm = T)
 # [1] 2102.357
+# [1] 2188.657
+
+# Percent of remaining for Bernie to win
+(2026 - sum(dat$SANDERS.Won, na.rm = T)) / sum(future.dat$TOTAL.DELEGATES)
+# [1] 0.6587473
+

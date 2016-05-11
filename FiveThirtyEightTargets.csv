@@ -6,7 +6,7 @@ DATE,STATE OR TERRITORY,COLOR,TOTAL DELEGATES,CLINTON Won,CLINTON Target,SANDERS
 03/01/16,Alabama,R,53,44,35,9,18
 ,American Samoa,P,6,4,3,2,3
 ,Arkansas,R,32,22,18,10,14
-,Colorado,P,66,28,30,38,36
+,Colorado,P,66,25,30,41,36
 ,Georgia,P,102,73,65,29,37
 ,Massachusetts,B,91,46,41,45,50
 ,Minnesota,P,77,31,30,46,47
@@ -34,16 +34,16 @@ DATE,STATE OR TERRITORY,COLOR,TOTAL DELEGATES,CLINTON Won,CLINTON Target,SANDERS
 03/26/16,Alaska,R,16,3,7,13,9
 ,Hawaii,B,25,8,12,17,13
 ,Washington,B,101,27,42,74,59
-04/05/16,Wisconsin,P,86,,38,,48
-04/09/16,Wyoming,R,14,,5,,9
-04/19/16,New York,B,247,,122,,125
-04/26/16,Connecticut,B,55,,27,,28
-,Delaware,B,21,,11,,10
-,Maryland,B,95,,53,,42
-,Pennsylvania,P,189,,93,,96
-,Rhode Island,B,24,,11,,13
-05/03/16,Indiana,R,83,,39,,44
-05/07/16,Guam,P,7,,3.5,,3.5
+04/05/16,Wisconsin,P,86,38,38,48,48
+04/09/16,Wyoming,R,14,7,5,7,9
+04/19/16,New York,B,247,139,122,108,125
+04/26/16,Connecticut,B,55,28,27,27,28
+,Delaware,B,21,12,11,9,10
+,Maryland,B,95,61,53,34,42
+,Pennsylvania,P,189,106,93,83,96
+,Rhode Island,B,24,11,11,13,13
+05/03/16,Indiana,R,83,39,39,44,44
+05/07/16,Guam,P,7,4,3.5,3,3.5
 05/10/16,West Virginia,R,29,,12,,17
 05/17/16,Kentucky,P,55,,27,,28
 ,Oregon,B,61,,24,,37
